@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:1
 
-FROM react_on_rails:latest
+FROM desm/rsg-react-on-rails:latest
 
 USER appserver
 WORKDIR /home/appserver/app
